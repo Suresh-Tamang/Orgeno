@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+:root{
+    --normal-font:1rem;
+    --standard-font:1.5rem;
+    --large-font:2rem;
+}
+section{
+    padding:0px 5% 70px;
+    margin: 0 auto;
+}
+header{
+    padding:0px 5% 10px;
+    margin: 0 auto;
+}
+
+
+.navcontainer{
+    width: 100%;
+    background-color: white;
+}
+.container1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: green;
+    padding: 10px;
+    border-radius: 10px 0px 10px 0px;
+    color: white;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.menu1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.container2{
+    display: flex;
+    justify-content: space-around;
+
+}
+#logo{
+    height: 80px;
+    width: 200px;
+}
+
+.menu,.icons{
+    display: flex;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+    color: black;
+    align-items: center;
+}
+li{
+    margin: 10px;
+    text-align: center;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: var(--standard-font);
+}
+
+/* #hero{
+    background-color: green;
+    background-size: cover;
+    background-repeat: repeat-x;
+    backdrop-filter: blur(20px);
+} */
+.herocontainermain{
+    background-color: green;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+.herocontent1{
+    padding: 10px;
+}
+.herocontent1 h1{
+    color: orange;
+    font-size: 4rem;
+}
+.herocontent1 h2{
+    color: green;
+    font-size: 4rem;
+}
+.heroconatiner2{
+    padding: 40px;
+    justify-content: center;
+    align-items: center;
+    align-content: last baseline;
+}
+.herosearch{
+    margin-top: 100px;
+    padding: 20px;
+    width: 400px;
+}
+.herosearch form{
+    height: 100px;
+}
+.herosearch form input{
+    border: 2px  solid orange;
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+    font-size: larger;
+    color: gray;
+}
+.herosearch form button{
+    border: 3px solid orange;
+    border-radius: 5px;
+    height: 50px;
+    width: 80px;
+    padding: 5px;
+}
+
+.product_container{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.product1{
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    background-color: chartreuse;
+}
