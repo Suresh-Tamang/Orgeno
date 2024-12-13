@@ -9,3 +9,6 @@ def home(requests):
 
 def base(requests):
     return render(requests, 'base.html')
+
+def shop(requests):
+    return render(requests,'shop.html')
